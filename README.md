@@ -10,7 +10,7 @@ This was a kernel competition and we couldn't use external data or leverage pre-
 
 ## Preprocessing
 The preprocessing plays a crucial role in NLP competition. Although network architecture plays an important role, with good processing, one can come up with divergent models in less time. The following methods worked pretty well
-- Cleaning punctuation, special characters and removing non-English and filling NaN - "__##__". Discussion on why not 0s, "na" instead of  "__##__"  (Let's brainstorm this intuition at Slack)
+- Cleaning punctuation, special characters and removing non-English and filling NaN - `"__##__". Discussion on why not 0s, "na" instead of  "__##__"`
 - Not removing stopwords. We lose much information in doing so at this competition
 - Adding Out of vocabulary words in embeddings
 - Replacing mostly misspelled words after EDA
